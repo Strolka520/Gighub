@@ -28,6 +28,25 @@ span.field-validation-error {
     font-weight: bold;
 }
 
+.voffset {
+    margin-top: 2px !important;
+}
+.voffset1 {
+    margin-top: 5px !important;
+}
+.voffset2 {
+    margin-top: 10px !important;
+}
+.voffset3 {
+    margin-top: 20px !important;
+}
+.voffset4 {
+    margin-top: 40px !important;
+}
+.voffset5 {
+    margin-top: 80px !important;
+}
+
 /* Bootstrap Overrides */
 body {
     font-size: 17px
@@ -98,8 +117,8 @@ h6,
 }
 
 .btn {
-    font-size: 17px;
-    padding: 7px 20px;
+    /*font-size: 17px;
+    padding: 7px 20px;*/
     -ms-border-radius: 9px;
     border-radius: 9px;
 }
@@ -141,6 +160,7 @@ h6,
     position: absolute;
     top: 0;
     left: 70px;
+    width: 190px;
 }
 
 .gigs > li .details .artist {
